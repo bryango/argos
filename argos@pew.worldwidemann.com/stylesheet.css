@@ -12,3 +12,8 @@
 .argos-menu-item-edit {
   font-size: smaller;
 }
+
+.panel-button .argos-line-view {
+    padding: 0px 4px;
+}
+
