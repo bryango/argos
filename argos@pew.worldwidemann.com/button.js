@@ -36,7 +36,7 @@ class ArgosButton extends PanelMenu.Button {
     this._lineView.setMarkup(
       "<small><i>" + this._loadingText + " ...</i></small>"
     );
-    Utilities.getActor(this).add_actor(this._lineView);
+    Utilities.getActor(this).add_child(this._lineView);
 
     this._isDestroyed = false;
 
